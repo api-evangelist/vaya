@@ -1,0 +1,39 @@
+generated: '2026-07-21'
+method: searched
+source: live HTTP probes of https://vaya.so
+host: https://vaya.so
+note: >-
+  vaya.so serves a marketing/app-download site that 307-redirects every unknown
+  path (including the whole /.well-known/ surface and /llms.txt) to
+  /download?utm_source=<path>, which returns 200 text/html. No real well-known
+  discovery documents are published. Statuses below are the raw first-hop
+  responses; none resolved to a genuine document, so no raw files were saved.
+documents:
+- path: /.well-known/security.txt
+  status: 307
+  redirect: https://vaya.so/download?utm_source=.well-known%2Fsecurity.txt
+  resolved: html-fallback
+- path: /.well-known/openid-configuration
+  status: 307
+  redirect: https://vaya.so/download?utm_source=.well-known%2Fopenid-configuration
+  resolved: html-fallback
+- path: /.well-known/oauth-authorization-server
+  status: 307
+  redirect: https://vaya.so/download?utm_source=.well-known%2Foauth-authorization-server
+  resolved: html-fallback
+- path: /.well-known/api-catalog
+  status: 307
+  redirect: https://vaya.so/download?utm_source=.well-known%2Fapi-catalog
+  resolved: html-fallback
+- path: /.well-known/ai-plugin.json
+  status: 307
+  redirect: https://vaya.so/download?utm_source=.well-known%2Fai-plugin.json
+  resolved: html-fallback
+- path: /llms.txt
+  status: 307
+  redirect: https://vaya.so/download?utm_source=llms.txt
+  resolved: html-fallback
+- path: /robots.txt
+  status: 200
+  resolved: real
+  note: 'Disallows /api/ (internal app API, not public); sitemap at https://vaya.so/sitemap.xml'

@@ -1,7 +1,24 @@
 aid: vaya
 name: Vaya
-description: 'Vaya is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  Vaya is an AI-powered Vedic astrology platform from Anuvaya Labs Technologies Pvt Ltd (New
+  Delhi, India) that connects users with classically trained Parashari astrologers for live
+  chat consultations, alongside free tools for Kundli (birth chart), horoscope, dasha, kundli
+  matching, marriage prediction, navamsa, and panchang. Founded by Maahin Puri and Nitesh
+  Kumar Niranjan (previously co-founders of Atlys), Vaya is backed by Accel, Arkam Ventures,
+  and Weekend Fund, and ships as iOS and Android apps with no public API or developer program.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://vaya.so/apple-touch-icon.png
 url: https://raw.githubusercontent.com/api-evangelist/vaya/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Ai
+- AI
+- Astrology
+- Vedic Astrology
+- Consultations
+- Consumer Apps
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +46,20 @@ maintainers:
 common:
 - type: Website
   url: https://vaya.so/
+- type: Blog
+  url: https://vaya.so/blog
+- type: Support
+  url: https://vaya.so/contact
+- type: TermsOfService
+  url: https://vaya.so/terms
+- type: PrivacyPolicy
+  url: https://vaya.so/privacy
+- type: LLMsTxt
+  url: llms/vaya-llms.txt
+- type: DomainSecurity
+  url: security/vaya-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

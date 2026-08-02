@@ -1,0 +1,24 @@
+# Vaya
+
+> Vaya is an AI-powered Vedic astrology platform from Anuvaya Labs Technologies Pvt Ltd (New Delhi, India) that connects users with classically trained Parashari astrologers for live chat consultations, alongside free tools for Kundli (birth chart), horoscope, dasha, kundli matching, marriage prediction, navamsa, darakaraka, and panchang. Founded by Maahin Puri and Nitesh Kumar Niranjan (previously co-founders of travel-tech startup Atlys), Vaya is backed by Accel, Arkam Ventures, and Weekend Fund. The product ships as iOS and Android apps; the company publishes no public API or developer program.
+
+## Company
+
+- [Website](https://vaya.so/): Vaya home — Vedic astrology consultations and free tools
+- [Blog](https://vaya.so/blog): Astrology articles — planets, houses, transits, nakshatras, signs, yogas
+- [Press](https://vaya.so/press): Company, founders, and investor information
+- [Contact](https://vaya.so/contact): Contact and support
+- [Terms of Use](https://vaya.so/terms): Governed by Indian law, New Delhi jurisdiction
+- [Privacy Policy](https://vaya.so/privacy): Privacy policy
+- [Refund Policy](https://vaya.so/refund-policy): Consultation refund policy
+
+## Catalog artifacts
+
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/vaya/refs/heads/main/apis.yml): API Evangelist network profile for Vaya
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/vaya/refs/heads/main/security/vaya-domain-security.yml): Probed TLS/DNSSEC/SPF/DMARC posture for vaya.so
+- [Well-known probe](https://raw.githubusercontent.com/api-evangelist/vaya/refs/heads/main/well-known/vaya-well-known.yml): /.well-known/ surface probe (none published)
+
+## Notes
+
+- Vaya publishes no public API, developer portal, OpenAPI, SDKs, or llms.txt as of 2026-07-21; this file is generated from the API Evangelist catalog profile.
+- Consultations are delivered by human astrologer contractors and AI-powered assistants; the terms state they are for entertainment purposes only.
