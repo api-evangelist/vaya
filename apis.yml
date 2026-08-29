@@ -7,6 +7,17 @@ description: >-
   matching, marriage prediction, navamsa, and panchang. Founded by Maahin Puri and Nitesh
   Kumar Niranjan (previously co-founders of Atlys), Vaya is backed by Accel, Arkam Ventures,
   and Weekend Fund, and ships as iOS and Android apps with no public API or developer program.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
